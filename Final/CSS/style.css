@@ -69,10 +69,99 @@ h2{
     text-align: center;
    
 }
+/* notificaçao*/
+.convite{
+    border-bottom: 1px solid black;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.convite h2{
+    color: rgb(73, 73, 73);
+    font-size: 8px;
+}
+.convite .fa-times{
+    color: black;
+    margin-left: 10px;
+}
+.friends{
+    background-color: rgb(153, 153, 153);
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+    right: 8%;
+    top:10%;
+    border: none;
+    display: none;
+    
+}
+.amigos{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    align-items: center;
+}
+.friends p{
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+.amigos:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: black;
+}
 .cabecalho h1{
     color: darkgray;
     margin-left: 40px ;
 }
+.amigos button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.amigos button:hover{
+    background-color: blue;
+    color: white;
+}
+.chat-geral{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(27, 27, 27, 0.842);
+    position: absolute;
+    right: 8%;
+    top:10%;
+    color: white;
+    display: none;
+    border-radius: 10px;
+}.chats {
+    margin-left: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.chat:hover{
+    background-color: white;
+    color: black;
+    transition: .7s all;
+    cursor: pointer;
+}
+.chat{
+    border-bottom: 1px solid white;
+}
+.chat-geral p{
+    font-size: 12px !important;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 15px;
+    height: 20px;
+}
+
+/* ------  */
 .usuario{
     margin-right: 4%;
     display: flex;
