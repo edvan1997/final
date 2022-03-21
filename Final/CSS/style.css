@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'poppins', sans-serif;
+
+}
+h2{
+    font-size: 15px;
+}
+
+.nav-side-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background-color: rgb(34, 22, 80);
+    overflow: hidden;
+    white-space: nowrap;
+    transition: .3s ease;
+}
+.nav-side-bar:hover{
+    width: 13%;
+}
+.nav-side-bar li{
+    padding: 10px;
+    color: white;
+}
+.nav-side-bar li:hover{
+    cursor: pointer;
+    background-color: rgba(172, 255, 47, 0.473);
+    transition: .2s ease-in-out;
+    
+}
+.nav-side-bar li .far{
+    color: white;
+    width: 40px;
+}
+.nav-side-bar .far{
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.side-icon-top{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.ativo{
+    background-color: greenyellow;
+    color: black;
+}
+
+/*CONTEUDO*/
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   
+}
+.cabecalho h1{
+    color: darkgray;
+    margin-left: 40px ;
+}
+.usuario{
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.usuario i{
+    margin-right: 15px;
+    font-size: 20px ;
+    color: darkgray;
+}
+.foto-perfil{
+    border-radius: 50%;
+}
+.but-not{
+    background-color: orange;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 10px !important;
+}
+.geral{
+    margin-left: 4%;
+}
+.conteudo{
+    padding: 10px;
+
+}
+.caixas{
+    display: flex;
+    flex-direction: row;
+}
+.caixa{
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.caixa1{
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.caixas2{
+    display: flex;
+}
+.caixas2 h2{
+    font-size: 10px;
+}
+.caixas2 p{
+    font-size: 8px;
+    margin: 5px
+}
+.sub-caixa{
+    border-top:1px solid black;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.subt2 p{
+    color: red;
+}
+/* CAIXA BLOCOS*/
+
+.caixas3{
+    display: flex;
+}
+.bloco1{
+    width: 50%;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+.head-bloco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+.head-bloco h2{
+    color: darkgray;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.linhas{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+.linhas h2{
+    font-size: 12px;
+}
+.linhas button{
+    border: none;
+    padding: 5px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: white;
+}
+.lin1{
+    background-color: red;
+}
+.lin2{
+    background-color: yellow;
+}
+.lin3{
+    background-color: green;
+}
+.lin4{
+    background-color: grey;
+}
