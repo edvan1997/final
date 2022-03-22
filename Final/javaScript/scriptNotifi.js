@@ -10,12 +10,24 @@ fechar.addEventListener('click', function(){
 })
 
 let sino = document.querySelector('.sino')
-let chat = document.querySelector('.chat-geral')
+let notifica = document.querySelector('.bloco-not')
 let fecha = document.querySelector('.fecha')
 
 sino.addEventListener('click', function(){
-    chat.style.display = 'block'
+    notifica.style.display = 'block'
 })
 fecha.addEventListener('click', function(){
-    chat.style.display = 'none'
+    notifica.style.display = 'none'
+})
+
+
+let perfil = document.querySelector('.foto-perfil')
+let configurar = document.querySelector('.configurar')
+let sair = document.querySelector('.sair')
+
+perfil.addEventListener('click', function(){
+    configurar.style.display = 'block'
+})
+sair.addEventListener('click', function(){
+    configurar.style.display = 'none'
 })

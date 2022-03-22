@@ -10,15 +10,22 @@ body{
     font-family: poppins, sans-serif;
 
 }
+.global{
+    display: flex;
+}
+.geral{
+    display: flex; 
+    width: 100%;
+}
+.conteudo-geral{
+    width: 100%;
+}
 h2{
     font-size: 15px;
 }
 
 .nav-side-bar{
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 145vh;
+    width: 4%;
     background-color: rgb(34, 22, 80);
     overflow: hidden;
     white-space: nowrap;
@@ -55,12 +62,7 @@ h2{
     background-color: greenyellow;
     color: black;
 }
-.global{
-    display: flex;
-}
-.geral{
-    display: flex;
-}
+
 /*CONTEUDO*/
 
 .cabecalho{
@@ -133,38 +135,49 @@ h2{
     background-color: blue;
     color: white;
 }
-.chat-geral{
-    width: 250px;
-    height: 150px;
-    background-color: rgba(27, 27, 27, 0.842);
+.bloco-not{
     position: absolute;
+    top: 7%;
     right: 8%;
-    top:10%;
-    color: white;
-    display: none;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(24, 24, 24, 0.913);
     border-radius: 10px;
-}.chats {
-    margin-left: 10px;
-    display: flex;
-    margin-top: 10px;
+    display: none;
 }
-.chat:hover{
-    background-color: white;
-    color: black;
-    transition: .7s all;
+.top-notifica{
+    color: white;
+}
+.mensa{
+    padding: 5px;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.521);
+    margin: 5px;
+    font-size: 10px;
+    text-align: start;
+    border-radius: 10px;
+}
+.configurar{ 
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top:10%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: none;
+   
+}
+.configs{
+    font-size: 12px !important;
+    display: flex;
+    margin: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: darkgray;
+}
+.sair:hover{
     cursor: pointer;
 }
-.chat{
-    border-bottom: 1px solid white;
-}
-.chat-geral p{
-    font-size: 12px !important;
-    text-align: left;
-    margin-right: 20px;
-    margin-left: 15px;
-    height: 20px;
-}
-
 /* ------  */
 .usuario{
     margin-right: 4%;
@@ -206,7 +219,7 @@ h2{
     width: 25%;
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    margin: 20px;
+    margin: 10px 20px;
     border-radius: 10px;
 }
 .caixas2{
@@ -236,7 +249,7 @@ h2{
 .bloco1{
     width: 50%;
     background-color: white;
-    margin: 20px;
+    margin: 5px 20px;
     padding: 10px;
 }
 .head-bloco{
